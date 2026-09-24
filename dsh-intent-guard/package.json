@@ -1,0 +1,13 @@
+{
+  "name": "@dsh-plugin/intent-guard",
+  "version": "0.1.0",
+  "private": true,
+  "description": "意图层的「不能修改」硬闸门：用 ctx.tools.restrict 剥夺 write/edit，让意图层可以读、可以跑，但无法动手改。",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "keywords": ["dsh", "cordis", "plugin", "tools", "restrict", "read-only"],
+  "files": ["index.js", "README.md"]
+}

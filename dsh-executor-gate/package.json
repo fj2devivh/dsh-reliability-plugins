@@ -1,0 +1,13 @@
+{
+  "name": "@dsh-plugin/executor-gate",
+  "version": "0.1.0",
+  "private": true,
+  "description": "执行层的权限管理条例：默认冻结（白纸开局）+ 意图层授权租约（范围锁/额度锁/时间锁）+ 定律边界与熔断上报。用 ctx.tools.guard 在每次工具调用上判定。",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "keywords": ["dsh", "cordis", "plugin", "tools", "guard", "permission", "executor"],
+  "files": ["index.js", "README.md"]
+}
